@@ -42,7 +42,7 @@
 
         const time = new Date().toLocaleTimeString();
         const li = document.createElement("li");
-        li.textContent = `${name} (${number}) - ${time}`;
+        li.textContent = `${name} - ${number} - ${time}`;
         historyEl.appendChild(li);
       });
     }
